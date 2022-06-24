@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 935px;
+    background: #FFFFFF;
+}
+
+.Container {
+    position: absolute;
+    width: 1768px;
+    height: 935px;
+}
+
+#menu ul {
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    background: #191718;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    margin-top: 0px;
+}
+
+#menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+#menu li:hover {
+    background: #5C5C5C;
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: 650px;
+    width: 310px;
+    height: 122px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Group1 {
+    position: absolute;
+    width: 1410px;
+    height: 210px;
+    background: #EFEFEF;
+    margin-left: 263px;
+}
+
+.Text1 {
+    position: absolute;
+    width: 100%;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 38px;
+}
+
+p {
+    text-align: center;
+}
+
+.Text2 {
+    position: absolute;
+    width: 972px;
+    height: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 38px;
+}
+
+.Text3 {
+    position: absolute;
+    width: 304px;
+    height: 134px;
+    margin-left: 116px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.Text4 {
+    position: absolute;
+    width: 433px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 136px;
+    margin-left: -6px;
+}
+
+.center-layout {
+    position: absolute;
+    width: 1410px;
+    height: 252px;
+    margin-top: 210px;
+    background-color: white;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 263px;
+}
+
+.center-item {
+    padding: 0px 8px;
+    margin-top: 16px;
+    flex-basis: 30%;
+    flex-direction: row;
+}
+
+.center-item:nth-child(1) {
+    background-color: white;
+    text-align: center;
+}
+
+.center-item:nth-child(2) {
+    background-color: white;
+}
+
+.center-item:nth-child(3) {
+    background-color: white;
+}
+
+h2 {
+    text-align: left;
+}
+
+.img1 {
+    padding: 30px;
+    float: left;
+    margin-top: -18px;
+    margin-left: -46px;
+}
+
+.p1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+}
+
+.p2 {
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    margin-top: 856px;
+}
+
+.ft {
+    margin-left: 263px;
+}
